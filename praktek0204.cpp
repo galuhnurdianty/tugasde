@@ -10,4 +10,6 @@ int main(){
 	double JP=LR/LP;
 	cout<<"Jumlah box Parket	:"<<JP<<endl;
 	double BPR=JP*500;
+	cout<<"Biaya Parket (Rp)	:"<<BPR<<endl;
+	int BPS=LR*20;
 }
