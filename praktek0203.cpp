@@ -5,10 +5,13 @@ int main(){
 	double ton=35273.92;
 	
 	double berat;
-	cin >> berat;
+	cin>>berat;
 	
-	double ounce = 1/ton;
-	double beratTon = berat*ounce;
+	double ounce=1/ton;
+	double beratTon=berat*ounce;
 	
-	cout << beratTon<<endl;
+	cout<<beratTon<<endl;
+	
+	double jumlah=1/beratTon;
+	cout<<jumlah;
 }
